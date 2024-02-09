@@ -3,67 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
-
-        body {
-            background-image: url(https://cdn.mos.cms.futurecdn.net/BfemybeKVXCf9pgX9WCxsc-1200-80.jpg);
-            background-color: var(--background);
-            display:grid;
-            place-items:center;
-            height:100vh;
-            font-family:sans-serif;
-        }
-
-        .gallery { display:flex;
-        gap: 1 rem;
-        max-width:80 rem;
-        }
-
-        .card {
-          position:relative;
-          left: 0px;
-          width:6rem;
-          border-radius:1.2rem;
-          height:20rem;
-          overflow:hidden;
-          background-color:var(--background);
-          transition:0.4s ease-in-out;
-          box-shadow:00 5px 12px rgba(0, 0, 0, 0.3);
-          flex:0.25;
-        }
-
-        .card img {
-          position: relative;
-          height:20rem;
-          object-fit:cover;
-        }
-        .card:hover{
-          flex:2;
-          font-weight: bold;
-          cursor:pointer;
-          border-radius: 1rem;
-        }
-
-        .card:nth-child(1) img {
-        left: -8rem;
-      }
-      .card:nth-child(2) img {
-        left: -6rem;
-      }
-      .card:nth-child(3) img {
-        left: -14rem;
-      }
-      .card:nth-child(4) img {
-        left: -8rem;
-      }
-    </style>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://shorturl.at/pKNQ7">
   </head>
+
   <body>
     <div class="gallery">
       <figure class="card">
